@@ -1,6 +1,5 @@
 $(document).ready(()=>{
-    var nombre = prompt("Introduce tu nombre: ");
-    $("nombre").text(nombre);
+    
     $("#btnDatosPersonales").click(()=>{
         $("#datospersonales").show()
         $("#formacionacademica").hide();
