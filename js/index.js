@@ -4,15 +4,34 @@ $(document).ready(()=>{
         $("#datospersonales").show()
         $("#formacionacademica").hide();
         $("#experienciaprofesional").hide();
+        $("#competenciasyhabilidades").hide();
+        $("#idiomas").hide();
     $("#btnFormacionAcademica").click(()=>{
         $("#formacionacademica").show()
         $("#datospersonales").hide();
         $("#experienciaprofesional").hide();
+        $("#competenciasyhabilidades").hide();
+        $("#idiomas").hide();
     $("#btnExperienciaProfesional").click(()=>{
         $("#experienciaprofesional").show();
         $("#formacionacademica").hide()
         $("#datospersonales").hide();
-
+        $("#competenciasyhabilidades").hide();
+        $("#idiomas").hide();
+    $("#btnCompetenciasyHabilidades").click(()=>{
+        $("#competenciasyhabilidades").show();
+        $("#datospersonales").hide()
+        $("#formacionacademica").hide();
+        $("#experienciaprofesional").hide();
+        $("#idiomas").hide();
+    $("#btnIdiomas").click(()=>{
+        $("#idiomas").show();
+        $("#datospersonales").hide()
+        $("#formacionacademica").hide();
+        $("#experienciaprofesional").hide();
+        $("#competenciasyhabilidades").hide();
+    })
+    })
     })
     })
     })
